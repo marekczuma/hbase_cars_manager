@@ -4,7 +4,7 @@
 		module="hbase-project_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20180514225630"
+		publication="20180605173549"
 	>
 		<description>
 		hbase-project
@@ -37,5 +37,9 @@
 		<dependency org="org.apache.hbase" name="hbase-common" rev="1.2.6" conf="compile->default(compile)"/>
 		<dependency org="org.apache.hbase" name="hbase-client" rev="1.2.6" conf="compile->default(compile)"/>
 		<dependency org="org.apache.hadoop" name="hadoop-common" rev="3.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.1.1" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.1.1" conf="compile->default(compile)"/>
+		<dependency org="com.hortonworks" name="shc-core" rev="1.1.1-2.1-s_2.11" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.module" name="jackson-module-scala_2.11" rev="2.7.4" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

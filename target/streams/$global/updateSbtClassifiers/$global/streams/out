@@ -1760,9 +1760,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.17!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 901ms :: artifacts dl 59ms
+[debug] :: resolution report :: resolve 1584ms :: artifacts dl 46ms
 [debug] 	report for default#hbase-project$sbt_2.10;1.0 default produced in /Users/maro/apps/hbase-project/target/scala-2.11/resolution-cache/reports/default-hbase-project$sbt_2.10-default.xml
-[debug] 	resolve done (901ms resolve - 59ms download)
+[debug] 	resolve done (1584ms resolve - 46ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#hbase-project$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2432,6 +2432,6 @@
 [debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.50!jsch.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.17!compiler-interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#persist;0.13.17!persist.jar(src)
-[debug] :: resolution report :: resolve 219ms :: artifacts dl 33ms
+[debug] :: resolution report :: resolve 392ms :: artifacts dl 33ms
 [debug] 	report for default#hbase-project$sources_2.10;1.0 default produced in /Users/maro/apps/hbase-project/target/scala-2.11/resolution-cache/reports/default-hbase-project$sources_2.10-default.xml
-[debug] 	resolve done (219ms resolve - 33ms download)
+[debug] 	resolve done (392ms resolve - 33ms download)
